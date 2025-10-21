@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.controls {
+  display: inline;
+  gap: 8px;
+  margin-bottom: 12px
+}
+
+.pinkButton {
+  color: pink
+  background: purple;
+  
+}
