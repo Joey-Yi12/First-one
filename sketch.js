@@ -21,7 +21,7 @@ function setup() {
     let textSpan = createSpan(userLine).parent(Row);
     let slider = createSlider(0, 360, floor(random(360)), 1).parent(Row)
     
-    let applyColor = () => textSpan.style('color', 'hsl(${slider.value()}, 80%, 50%)');
+    let applyColor = () => textSpan.style('color', `hsl(${slider.value()}, 80%, 50%)`);
     slider.input(applyColor);
     applyColor()
   })
